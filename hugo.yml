@@ -1,4 +1,4 @@
-baseURL: 'https://<あなたのGitHubユーザー名>.github.io/'
+baseURL: 'https://8omp.github.io/'
 languageCode: 'ja'
 title: 'My Portfolio & Writeups'
 theme: 'PaperMod'
