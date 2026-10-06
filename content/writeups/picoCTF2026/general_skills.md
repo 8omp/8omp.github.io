@@ -1,7 +1,7 @@
 +++
 title = 'General_skills'
 date = 2026-10-06T14:34:59+09:00
-draft = true
+draft = false
 +++
 
 # SUDO MAKE ME A SANDWICH
