@@ -1,6 +1,6 @@
 baseURL: 'https://8omp.github.io/'
 languageCode: 'ja'
-title: 'My Portfolio & Writeups'
+title: '8omp pages'
 theme: 'PaperMod'
 
 params:
@@ -8,14 +8,10 @@ params:
     enabled: true
     title: "Hello, I'm 8omp"
     subtitle: |
-      CTF Player (Pwn / Rev) 
+      Currently Studying Rev.
+      Low-Level Programming.
       
       ![GitHub Snake](https://raw.githubusercontent.com/8omp/8omp/output/github-contribution-grid-snake.svg)
-    buttons:
-      - name: Writeups
-        url: /writeups/
-      - name: Notes
-        url: /notes/
 
   socialIcons:
     - name: github
@@ -37,3 +33,7 @@ menu:
       name: Notes
       url: /notes/
       weight: 20
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 30
