@@ -1,0 +1,44 @@
+baseURL: 'https://<あなたのGitHubユーザー名>.github.io/'
+languageCode: 'ja'
+title: 'My Portfolio & Writeups'
+theme: 'PaperMod'
+
+params:
+  # ホーム画面をポートフォリオ風（プロフィールモード）にする
+  profileMode:
+    enabled: true
+    title: "Hello, I'm 8omp"
+    # ここにマークダウンでGitHubスネークの画像URLを貼れます
+    subtitle: |
+      CTF Player (Pwn / Rev) 
+      
+      ![GitHub Snake](https://raw.githubusercontent.com/8omp/8omp/output/github-contribution-grid-snake.svg)
+    buttons:
+      - name: Writeups
+        url: /writeups/
+      - name: Notes
+        url: /notes/
+
+  # SNSリンク集（アイコンが自動で付きます）
+  socialIcons:
+    - name: github
+      url: "https://github.com/8omp"
+    - name: x
+      url: "https://twitter.com/x8omp"
+    # QiitaやZennの専用アイコンは標準にはないため、一般的なlinkアイコンを指定
+    - name: link
+      url: "https://qiita.com/8omp"
+    - name: link
+      url: "https://zenn.dev/8omp"
+
+# ナビゲーションメニュー
+menu:
+  main:
+    - identifier: writeups
+      name: Writeups
+      url: /writeups/
+      weight: 10
+    - identifier: notes
+      name: Notes
+      url: /notes/
+      weight: 20
